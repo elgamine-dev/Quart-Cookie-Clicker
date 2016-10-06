@@ -8,5 +8,7 @@ $(document).ready(function () {
 		})
 		// etape 2  je décide par la suite de  sélectioner la class cookie pour y apposer une fonction click
 		// je décide maintenant  d'ajouter un condition if 
-		//		if (cookie_miam_miam)
-})
+	if (cookie_miam_miam % 20 === 0) {
+		alert("trouve une activité plus productive");
+	}
+});
